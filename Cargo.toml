@@ -1,0 +1,17 @@
+[[bin]]
+name = "portmonitor"
+test = false
+bench = false
+path = "src/main.rs"
+
+[package]
+name = "portmonitor"
+version = "0.1.0"
+authors = ["Amin Saedi <amindisam@gmail.com>"]
+license = "MIT"
+description = "Simple command to wait for a TCP port to open"
+readme = "README.md"
+homepage = "https://github.com/aminsaedi/portmonitor"
+repository = "https://github.com/aminsaedi/portmonitor"
+keywords = ["port-wait", "port", "tcp"]
+categories = ["command-line-utilities"]
