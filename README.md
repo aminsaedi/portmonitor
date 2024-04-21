@@ -23,6 +23,15 @@ portmonitor 8080 && curl http://localhost:8080
 
 ## Installation
 
+### Using Cargo
+
+```sh
+cargo install portmonitor
+```
+
+
+### Using install script
+
 ```sh
 curl https://raw.githubusercontent.com/aminsaedi/portmonitor/master/install.sh | bash
 ```
