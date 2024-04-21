@@ -12,13 +12,13 @@ PortMonitor takes a single argument: the TCP port number you want to wait for. O
 ### Usage
 
 ```sh
-PortMonitor <port_number>
+portmonitor <port_number>
 ```
 
 ### Example
 
 ```sh
-PortMonitor 8080 && curl http://localhost:8080
+portmonitor 8080 && curl http://localhost:8080
 ```
 
 ## Installation
